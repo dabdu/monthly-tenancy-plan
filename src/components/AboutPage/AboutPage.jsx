@@ -72,7 +72,10 @@ function AboutPage () {
   </div>
 
 
-<p className="bottom__paragraph">@Monthly Tenancy 2022</p>
+          <p 
+            className="bottom__paragraph"
+            >@Monthly Tenancy 2022
+          </p>
 
         </div>
       </section>

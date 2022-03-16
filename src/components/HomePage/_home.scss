@@ -52,6 +52,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      position: relative;
 
       margin-top: 30px;
       .text__content {
@@ -92,6 +93,15 @@
           width: 150px;
         }
       }
+
+      .bottom__paragraph {
+        color: white;
+        text-align: center;
+        position: absolute;
+        font-size: 1.2rem;
+        top: 200px;
+        // left: 40%;
+      }
     }
   }
 }
@@ -130,6 +140,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
 
         // margin-top: 40px;
         .text__content {
@@ -141,6 +152,15 @@
             font-size: 2rem;
             line-height: 3rem;
           }
+        }
+
+        .bottom__paragraph {
+          color: white;
+          text-align: center;
+          position: absolute;
+          font-size: 1.2rem;
+          top: 320px;
+          // left: 40%;
         }
       }
 

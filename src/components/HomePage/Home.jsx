@@ -78,6 +78,8 @@ function Home() {
                 {" "}
                 <i className="fab fa-apple"></i> Tenants{" "}
               </button>
+
+              
               <button
                 
                 className="landlord__btn"
@@ -87,9 +89,18 @@ function Home() {
                 <i className="fab fa-google-play"></i> Landlords{" "}
               </button>
             </div>
+
+            <p 
+              className="bottom__paragraph text-center"
+              >@Monthly Tenancy 2022
+          </p>
+
+           
           
         </div>
       </section>
+
+      
     </ div>
   );
 }
